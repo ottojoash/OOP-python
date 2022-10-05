@@ -8,11 +8,13 @@
 #print(hostels[-1:3])
 
 #range function
-#print(range(0,10))
-#print(list(range(0,10)))
+#print(range(0,10,3))
+#print(list(range(0,10,3)))
 
 
 
 #loops
 #for i in range(0,10):
     #print(i)
+
+hostels = ["tupendane","pameja","premium","Victoria","cronnos","sabiti","david's ark"]
