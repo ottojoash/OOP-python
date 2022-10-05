@@ -11,5 +11,8 @@
 #print(range(0,10))
 #print(list(range(0,10)))
 
+
+
 #loops
-for 
+#for i in range(0,10):
+    #print(i)
