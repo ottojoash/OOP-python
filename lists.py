@@ -31,6 +31,6 @@
  #   print("its true")
 
 i = 0
-while i<10:
+while i<3:
     print("its printing...")
     i = i+1
