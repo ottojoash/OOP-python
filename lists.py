@@ -17,7 +17,7 @@
 #for i in range(0,10):
     #print(i)
 
-hostels = ["tupendane","pameja","premium","Victoria","cronnos","sabiti","david's ark"]
+#hostels = ["tupendane","pameja","premium","Victoria","cronnos","sabiti","david's ark"]
 
 #for i in hostels:
  #   print(i)
@@ -27,4 +27,5 @@ hostels = ["tupendane","pameja","premium","Victoria","cronnos","sabiti","david's
 
  #sorting items 
 
-
+while True:
+    print("its true")
