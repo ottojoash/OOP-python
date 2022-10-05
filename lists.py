@@ -19,5 +19,5 @@
 
 hostels = ["tupendane","pameja","premium","Victoria","cronnos","sabiti","david's ark"]
 
-for i in hostels:
+for i in hostels[0:4]:
     print(i)
