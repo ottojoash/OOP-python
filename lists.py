@@ -22,5 +22,9 @@ hostels = ["tupendane","pameja","premium","Victoria","cronnos","sabiti","david's
 #for i in hostels:
  #   print(i)
 
-for i in hostels[0:4]:
-    print(i)    
+#for i in hostels[0:4]:
+ #   print(i)    
+
+ #sorting items 
+
+
