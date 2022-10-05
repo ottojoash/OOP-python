@@ -27,5 +27,10 @@
 
  #sorting items 
 
-while True:
-    print("its true")
+#while True:
+ #   print("its true")
+
+i = 0
+while i<10:
+    print("its printing...")
+    i = i+1
