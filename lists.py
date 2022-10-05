@@ -8,4 +8,8 @@
 #print(hostels[-1:3])
 
 #range function
+#print(range(0,10))
+#print(list(range(0,10)))
 
+#loops
+for 
