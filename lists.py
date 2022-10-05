@@ -4,4 +4,4 @@
 
 hostels = ["tupendane","pameja","premium","Victoria","cronnos","sabiti","david's ark"]
 
-print(hostels[0:3])
+print(hostels[-1:3])
