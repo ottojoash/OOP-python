@@ -19,5 +19,8 @@
 
 hostels = ["tupendane","pameja","premium","Victoria","cronnos","sabiti","david's ark"]
 
+#for i in hostels:
+ #   print(i)
+
 for i in hostels[0:4]:
-    print(i)
+    print(i)    
