@@ -18,3 +18,6 @@
     #print(i)
 
 hostels = ["tupendane","pameja","premium","Victoria","cronnos","sabiti","david's ark"]
+
+for i in hostels:
+    print(i)
