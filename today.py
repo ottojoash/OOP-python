@@ -13,3 +13,14 @@ while True:
         continue
 
 print("thank you for using our program")             
+
+
+def get_int():
+    try:
+        our_number = int(input("enter a number. "))
+    except:
+        print("the value is not a number") 
+
+
+
+main(3)           
