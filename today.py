@@ -7,7 +7,7 @@ random_number1 = 3;
 
 while True:
     number1 = int(input("please enter your number,  "))
-    if number1 == random_number1:
+    if number1 == random_number1 or number1 == "done":
         break
     else:
         continue
