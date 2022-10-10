@@ -1,24 +1,24 @@
+
+
+#used to  store and input the user name
 name=str(input("hello may you enter your name please: "))
-if (name == name):
-    print("hello Friend!!! ",name)
-elif (name == "jackie"):
-    print("hello ",name)
-elif (name == "jack"):  
-    print("hello",name)
+#to validate the information entered
+if name =="Jack" or name =="Jackie":
+        print("Hello,{}".format(name))
+        print("Goodbye,{}".format(name))
 else:
-    print("good bye")
+        print("Hello friend!!!")        
 
-
-num = int(input("enter your age"))
-if num <= 18:
-    print("you are below age of working")
-elif 18<25:
-    print("look for a job")
-elif 25>=30:
-    print("you should have a job allreadly")        
-elif 30 <= 60:
-    print("think about having a family")
-elif  num<=90 or num == 60:
-    print("you should retire")
+#enter the age and save the data
+num=int(input("Enter your age: "))
+#check age and validate with correct response
+if num < 18:
+    print("You are below the the working age")
+elif num > 18 and num < 25:
+    print("You are of age of working,look for a job")
+elif num>=25 and num <= 30:
+    print("You  should be having a job already")
+elif num < 90 and num >= 60:
+    print("You are old enough to retire") 
 else:
-    print("goodbye",name,"your a ",num,"years")                
+    print(f"Goodbye,{name},you are {num} years old and you are alien in nature")               
