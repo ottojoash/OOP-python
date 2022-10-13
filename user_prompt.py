@@ -10,4 +10,5 @@ def user_prompt():
 
     print("your age is : ",age)
 
-user_prompt    
+user_prompt()
+user_prompt() 
