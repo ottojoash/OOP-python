@@ -1,14 +1,15 @@
-def user_prompt():
+#function 
+def user_prompt(name):
 
     print("what is your name?")
-    name = input()
+    #name = input()
 
     print("your name is: ",name)
  
-    print("what is your age")
-    age = input()
+    #print("what is your age")
+    #age = input()
 
-    print("your age is : ",age)
-
-user_prompt()
-user_prompt() 
+    #print("your age is : ",age)
+#returning the function
+user_prompt("otto")
+#user_prompt() 
