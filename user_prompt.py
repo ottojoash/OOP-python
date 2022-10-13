@@ -1,3 +1,5 @@
+def user_prompt():
+    
 print("what is your name?")
 name = input()
 
