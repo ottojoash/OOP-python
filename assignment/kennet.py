@@ -9,8 +9,8 @@ while True:
     except:
         print("Invalid input")
         continue
-    num = num+1
-    tot = tot +num1
+num = num+1
+tot = tot +num1
     
 print('all done')
 print(tot,num,tot/num)        
