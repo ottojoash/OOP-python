@@ -1,7 +1,7 @@
 hat = [1, 2, 3, 4, 5]
 
 
-number = int(input())
+number = int(input("enter hat number: "))
 
 
 hat[len(hat) // 2] = number
