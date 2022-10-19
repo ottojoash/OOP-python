@@ -1,9 +1,9 @@
-class person:
- def _int_(self,first_name,last_name,age):
-    self.first_name = first_name
-    self.last_name = last_name
-    self.age = age
+class Person:
+    def _int_(self,our_first_name,our_last_name,our_age):
+        self.first_name = our_first_name
+        self.last_name = our_last_name
+        self.age = our_age
 
-person1 = person('john','doe',30)
+person1 = Person('john','doe',30)
 
 print(person1.first_name)
