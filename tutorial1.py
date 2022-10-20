@@ -1,14 +1,22 @@
+from unicodedata import name
+
+
 class item:
     #adding behavioural to objects
 
     def __init__(self):
-        print("hey i have been created!")
+        self.name = name
+        self.quantity = quantity
+        self.price = price
+        print(f"hey i have been created, my name is{self.name},my price is ,{self.price}")
+
+        # print("hey i have been created!")
         
     def calculate_discount(self,x,y):
         return x*y
 
-car = item()
-gun = item()
+car = item("telsa",100,5000)
+gun = item("")
 
 phone = item()
 phone.name = "itel6"
