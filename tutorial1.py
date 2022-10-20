@@ -2,7 +2,7 @@ class item:
     #adding behavioural to objects
 
     def __init__(self):
-        
+        print("hey i have been created!")
         
     def calculate_discount(self,x,y):
         return x*y
