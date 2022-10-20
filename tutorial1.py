@@ -8,7 +8,7 @@ class item:
         return x*y
 
 car = item()
-
+gun = item()
 
 phone = item()
 phone.name = "itel6"
