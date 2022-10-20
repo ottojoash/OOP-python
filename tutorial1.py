@@ -1,5 +1,9 @@
 class item:
-    pass
+    #adding behavioural to objects
+
+
+    def calculate_discount(self,x,y):
+        return x*y
 
 
 phone = item()
