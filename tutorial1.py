@@ -7,6 +7,8 @@ class item:
     def calculate_discount(self,x,y):
         return x*y
 
+car = item()
+
 
 phone = item()
 phone.name = "itel6"
