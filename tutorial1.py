@@ -1,7 +1,9 @@
 class item:
     #adding behavioural to objects
 
-
+    def __init__(self):
+        
+        
     def calculate_discount(self,x,y):
         return x*y
 
