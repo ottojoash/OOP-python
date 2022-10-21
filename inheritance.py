@@ -4,6 +4,9 @@ class person:
         self.age = age
 
     def __str__(self):
+        print('the person is walking.....')    
+
+    def __str__(self):
         return f"the name is {self.name}"
           
 class  student(person):
