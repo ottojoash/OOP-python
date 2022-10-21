@@ -17,9 +17,9 @@ class  student(person):
 
 student1 = student('jane doe', 16 ,'a0006','BBA')
 print(student)        
-person1 = person('john',70)
-the_second_person = person('jane doe',15)
+# person1 = person('john',70)
+# the_second_person = person('jane doe',15)
 
 
-print(person1)
-print(the_second_person)
+# print(person1)
+# print(the_second_person)
