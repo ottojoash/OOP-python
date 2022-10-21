@@ -7,7 +7,7 @@ class person:
         print('the person is walking.....')    
 
     def __str__(self):
-        return f"the name is {self.name}"
+        return f"the name is {self.name} and the age is {self.age}"
           
 class  student(person):
     def __init__(self, name, age,access_no,program):
@@ -16,6 +16,7 @@ class  student(person):
         self.program = program
 
 student1 = student('jane doe', 16 ,'a0006','BBA')
+obstinate_student = student('kisakye desire',16,'a008', ' Bsc.AE')
 print(student)        
 # person1 = person('john',70)
 # the_second_person = person('jane doe',15)
