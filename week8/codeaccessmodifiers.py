@@ -5,7 +5,10 @@ class Person:
         self.name = name
         self.age = age
         self.country = country
-
+    @property
+    def name(self):
+        return self.__name
+    @name.setter    
     def __str__(self):
         return f'name is{self.name} and age is {self.age} and country is {self.country}'
 
