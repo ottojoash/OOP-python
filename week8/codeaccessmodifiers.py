@@ -14,4 +14,5 @@ class Person:
 
 person1 = Person('john doe', 16)
 person1.name = 'jimmy'
+person1.age = 17
 print(person1)
