@@ -8,7 +8,9 @@ class Person:
     @property
     def name(self):
         return self.__name
-    @name.setter    
+    @name.setter 
+    def name(self, value):
+        self.__name = value   
     def __str__(self):
         return f'name is{self.name} and age is {self.age} and country is {self.country}'
 
