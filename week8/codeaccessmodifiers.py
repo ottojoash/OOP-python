@@ -11,7 +11,7 @@ class Person:
     @name.setter 
     def name(self, value):
         self.__name = value   
-    def __str__(self):
+    def __repr__(self):
         return f'name is{self.name} and age is {self.age} and country is {self.country}'
 
 person1 = Person('john doe', 16, 'uganda')
