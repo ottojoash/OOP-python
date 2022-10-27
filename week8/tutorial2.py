@@ -1,17 +1,17 @@
-class student:
-    pass
+# class student:
+    # pass
 
 
-jim = student()
+# jim = student()
 
-a = 10
-print(jim)
+# a = 10
+# print(jim)
 
-joan = 'gary'
-print('joan')
+# joan = 'gary'
+# print('joan')
 
-age  = 10
-print(age)
+# age  = 10
+# print(age)
 
 class Student:
 
@@ -26,4 +26,10 @@ class Student:
 
     def wake(self):
         print('iam waking')            
-        
+
+
+jim = Student()
+
+jim = Student()
+
+print(jim==jim)
