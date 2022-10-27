@@ -30,6 +30,6 @@ class Student:
 
 jim = Student()
 
-jim = Student()
+laura = Student()
 
-print(jim==jim)
+# print(jim==jim)
