@@ -5,3 +5,4 @@ class student:
 jim = student()
 
 a = 10
+print(jim)
